@@ -5,10 +5,10 @@ const Aboutus=()=>
 {
     return(
         <>
-        <nav class="navbar">
-        <div class="left-corner">
+        <nav className="navbar">
+        <div className="left-corner">
         </div>
-        <div class="navs-options">
+        <div className="navs-options">
             <h1>About Us</h1>
             <Link to="/Home1">
 
@@ -20,21 +20,21 @@ const Aboutus=()=>
         </div>
     </nav>
 
-    <div class="left-pane">
+    <div className="left-pane">
         <Link to="/Home">
-            <i class="fa fa-home"></i> Home
+            <i className="fa fa-home"></i> Home
         </Link>
         
         <Link to="/">
-            <i class="fa fa-sign-out-alt"></i> Logout
+            <i className="fa fa-sign-out-alt"></i> Logout
         </Link>
         <Link to="/About">
-            <i class="fa fa-info-circle"></i> About Us
+            <i className="fa fa-info-circle"></i> About Us
         </Link>            
     </div>
-    <div class="text">
-        <div class="container">
-            <div class="circle-img">
+    <div className="text">
+        <div className="container">
+            <div className="circle-img">
                 <img src={img1} alt="YourTrip Image"/>
             </div>
         <h1>YourTrip</h1>

@@ -11,16 +11,16 @@ const HomeFooter = () => {
         <p>&copy; 2023 Your Trip. All rights reserved.</p>
         <div className="footer-content">
           <div className="social-icons">
-            <a href="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
-            <a href="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
-            <a href="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
-            <a href="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
-            <a href="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+            <Link to="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></Link>
+            <Link to="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></Link>
+            <Link to="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></Link>
+            <Link to="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></Link>
+            <Link to="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></Link>
           </div>
           <div className="contact-info">
             <p><FontAwesomeIcon icon={faPhone} /> Contact: +1 123 456 7890</p>
             <p><FontAwesomeIcon icon={faEnvelope} /> Email: info@yourTrip.com</p>
-            <p><FontAwesomeIcon icon={faLock} /> <a href="/privacy-policy">Privacy Policy</a></p>
+            <p><FontAwesomeIcon icon={faLock} /> <Link to="/privacy-policy">Privacy Policy</Link></p>
           </div>
         </div>
       </footer>

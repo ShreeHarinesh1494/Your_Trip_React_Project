@@ -45,7 +45,7 @@ const Trips=()=>
                 <div class="flip-card-back">
                     <h1>Coimbatore</h1>
                     <p>Coimbatore is a city located in the state of Tamil Nadu, India. It is often referred to as the "Manchester of South India" due to its prominent position as a major industrial and textile hub</p>
-                    <p><a href="#">Click Here</a></p>
+                    <p><Link to="#">Click Here</Link></p>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@ const Trips=()=>
                 <div class="flip-card-back">
                     <h1>Madurai</h1>
                     <p>It holds great cultural, historical, and religious significance and is one of the oldest continuously inhabited cities in the world.</p>
-                    <p><a href="#">Click Here</a></p>
+                    <p><Link to="#">Click Here</Link></p>
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@ const Trips=()=>
                 <div class="flip-card-back">
                     <h1>Ooty</h1>
                     <p>Ooty, officially known as Udhagamandalam, is a picturesque hill station located in the Nilgiri Hills of the Indian state of Tamil Nadu.</p>
-                    <p><a href="#">Click Here</a></p>
+                    <p><Link to="#">Click Here</Link></p>
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@ const Trips=()=>
                 <div class="flip-card-back">
                     <h1>kanyakumari</h1>
                     <p> It is in the state of Tamil Nadu, India. Renowned for its spectacular geographical location, Kanyakumari is a popular tourist destination with a rich cultural.</p>
-                    <p><a href="#">Click Here</a></p>
+                    <p><Link to="#">Click Here</Link></p>
                 </div>
             </div>
         </div>

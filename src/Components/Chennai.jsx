@@ -9,32 +9,32 @@ const Chennai=()=>
     return(
         <>
             <nav class="navbar">
-    <div class="left-corner"></div>
-    <div class="nav-options">
+    <div className="left-corner"></div>
+    <div className="nav-options">
         <h1>Chennai</h1>
-        <Link to="/Home1"><i class="fa fa-home"></i></Link>
-        <Link to="/Trips"><i class="fas fa-suitcase"></i></Link>
-        <Link to="/Contact"><i class="fas fa-phone"></i></Link>
-        <Link to="/Home"><i class="fa fa-dashboard"></i></Link>
-        <Link to="/"><i class="fa fa-sign-out"></i></Link>
+        <Link to="/Home1"><i className="fa fa-home"></i></Link>
+        <Link to="/Trips"><i className="fas fa-suitcase"></i></Link>
+        <Link to="/Contact"><i className="fas fa-phone"></i></Link>
+        <Link to="/Home"><i className="fa fa-dashboard"></i></Link>
+        <Link to="/"><i className="fa fa-sign-out"></i></Link>
     </div>
 </nav>
 <div className='ce'>
-<div class="blog-card">
-  <div class="meta">
-    <div class="photo" style={{ backgroundImage: `url(${img1})`}}></div>
+<div className="blog-card">
+  <div className="meta">
+    <div className="photo" style={{ backgroundImage: `url(${img1})`}}></div>
   </div>
-  <div class="description">
+  <div className="description">
     <h1>Marina Beach</h1>
     <h2>Chennai's scenic coastline</h2>
     <p>Marina Beach, or simply the Marina, is a natural urban beach in Chennai, Tamil Nadu, India, along the Bay of Bengal. The beach runs from near Fort St. George in the north to Foreshore Estate in the south, a distance of 6.0 km (3.7 mi),making it the second longest urban beach in the world, after Cox's Bazar Beach.It is a prominent landmark in Chennai.</p>
   </div>
 </div>
-<div class="blog-card alt">
-  <div class="meta">
-    <div class="photo" style={{ backgroundImage: `url(${img2})`}}></div>
+<div className="blog-card alt">
+  <div className="meta">
+    <div className="photo" style={{ backgroundImage: `url(${img2})`}}></div>
   </div>
-  <div class="description">
+  <div className="description">
     <h1>Kapaleeshwarar Temple</h1>
     <h2>Dravidian masterpiece honoring Lord Shiva in Chennai</h2>
     <p>The Kapaleeshwarar Temple is a Hindu temple dedicated to the god Shiva located in Mylapore, Chennai in the Indian state of Tamil Nadu. The temple was built around the 7th century CE and is an example of Dravidian architecture.
@@ -42,21 +42,21 @@ const Chennai=()=>
 According to the Puranas, Parvati worshipped her husband Shiva in the form of a peahen, giving the vernacular name Mylaito the area that developed around the temple.Shiva is worshiped as Kapaleeshwarar. </p>
   </div>
 </div>
-<div class="blog-card">
-  <div class="meta">
+<div className="blog-card">
+  <div className="meta">
     <div className="photo" style={{ backgroundImage: `url(${img3})`}} ></div>
   </div>
-  <div class="description">
+  <div className="description">
     <h1>Arignar Anna Zoological Park</h1>
     <h2> A diverse wildlife haven near Chennai</h2>
     <p>Arignar Anna Zoological Park (abbreviated AAZP), also known as the Vandalur Zoo, is a zoological garden located in Vandalur, to southwest of Chennai, Tamil Nadu, about 31 kilometres (19 mi) from the Chennai Central and 15 kilometres (9.3 mi) from Chennai Airport.there were about 47 species of mammals, 63 species of birds, 31 species of reptiles, 5 species of amphibians, 28 species of fishes, and 10 species of insects in the park.</p>
   </div>
 </div>
-<div class="blog-card alt">
-  <div class="meta">
-    <div class="photo" style={{ backgroundImage: `url(${img4})`}}></div>
+<div className="blog-card alt">
+  <div className="meta">
+    <div className="photo" style={{ backgroundImage: `url(${img4})`}}></div>
   </div>
-  <div class="description">
+  <div className="description">
     <h1>Valluvar Kottam</h1>
     <h2> Iconic monument in Chennai paying homage to the classical Tamil poet Thiruvalluvar</h2>
     <p>The construction of the Valluvar Kottam was conceived and executed by the then Chief Minister of Tamil Nadu M. Karunanidhi during the 1970s.It was designed by South Indian traditional architect V. Ganapati Sthapati, who is also the architect of the Thiruvalluvar Statue at Kanyakumari.It was inaugurated in April 1976 by the then President of India Fakhruddin Ali Ahmed</p>

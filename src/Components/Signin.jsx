@@ -42,9 +42,9 @@ function Login()
                         <input type="password" id="password" required autoComplete="off"/>
                         <label htmlFor="">Password</label>
                     </div>
-                    <a href="#">
+                    <Link to="#">
                         <button>Log in</button>
-                      </a>
+                      </Link>
                     <div className="register">
                         <p>Don't have a account <Link to="/signup">Register</Link></p>
                     </div>
