@@ -19,7 +19,7 @@ import img16 from '../Assests/images/mayil.jpg'
 import img17 from '../Assests/images/naga.jpg'
 import img18 from '../Assests/images/Namakkal.jpg'
 import img19 from '../Assests/images/peram.jpg'
-import img20 from '../Assests/images/salem.jpg'
+// import img20 from '../Assests/images/salem.jpg'
 import HomeFooter from './Footer';
 const Trips=()=>
 {
