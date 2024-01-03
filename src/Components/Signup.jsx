@@ -7,7 +7,7 @@ const Signup=()=>
         let a = document.getElementById("name").value;
         let b = document.getElementById("password").value;
         let c = document.getElementById("confirmPassword").value;
-        if(b==c)
+        if(b===c)
         alert(a + " Successfully Registered");
         else
         alert("password Mismatched")

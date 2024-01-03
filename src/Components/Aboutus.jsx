@@ -1,5 +1,5 @@
 import '../Assests/css/Aboutus.css'
-import img1 from '../Assests/images/your-trip-high-resolution-logo.jpeg'
+import ximg1 from '../Assests/images/your-trip-high-resolution-logo.jpeg'
 import { Link } from 'react-router-dom'
 const Aboutus=()=>
 {
@@ -35,7 +35,7 @@ const Aboutus=()=>
     <div className="text">
         <div className="container">
             <div className="circle-img">
-                <img src={img1} alt="YourTrip Image"/>
+                <img src={ximg1} alt="YourTrip"/>
             </div>
         <h1>YourTrip</h1>
         <h2 style={{ color: 'orange' }}>Explore Tamil Nadu Like Never Before!</h2>
