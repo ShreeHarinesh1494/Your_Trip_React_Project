@@ -20,7 +20,7 @@ const Home1=()=>
         </div>
     </nav>
     <div class="image-container">
-        <img src={img1}/>
+        <img src={img1} alt="homeimg"/>
         <div class="image-text">
             <h1>Hello TamilNadu</h1>
             <h3>Journey Never Ends here</h3>
