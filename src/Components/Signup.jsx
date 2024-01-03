@@ -13,7 +13,7 @@ const Signup=()=>
         alert("password Mismatched")
       };
     return(
-        <>
+        <div className='body'>
         <section>
         <video autoPlay loop muted playsInline>
             <source src={vid1} type="video/mp4"/>
@@ -64,7 +64,7 @@ const Signup=()=>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-    </>
+    </div>
     )
 }
 

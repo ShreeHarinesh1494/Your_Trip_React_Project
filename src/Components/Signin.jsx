@@ -1,5 +1,4 @@
 import '../Assests/css/Signin.css'
-import vid1 from '../Assests/images/alagar.jpg'
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 function Login()
@@ -22,12 +21,13 @@ function Login()
         }
     };
     return(
-        <>
-
+        <div className="body">
+        
               <section>
-        <video autoPlay loop muted playsInline>
+                
+        {/* <video autoPlay loop muted playsInline>
             <source src={vid1} type="video/mp4"/>
-        </video>
+        </video> */}
         <div className="form-box">
             <div className="form-value">
                 <form onSubmit={Signin}>
@@ -57,7 +57,7 @@ function Login()
 
     
 
-        </>
+        </div>
     )
 }
 
