@@ -1,5 +1,5 @@
 import '../Assests/css/Signup.css'
-import vid1 from '../Assests/images/ind.mp4'
+import vid1 from '../Assests/images/alagar.jpg'
 import { Link } from 'react-router-dom';
 const Signup=()=>
 {

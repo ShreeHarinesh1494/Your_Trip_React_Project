@@ -1,5 +1,5 @@
 import '../Assests/css/Signin.css'
-import vid1 from '../Assests/images/hbg.mp4'
+import vid1 from '../Assests/images/alagar.jpg'
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 function Login()
