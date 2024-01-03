@@ -17,7 +17,7 @@ const Contact = () => {
         </div>
       </nav>
       <div class="circle-imgs">
-                <img src={img1} alt="YourTrip Image"/>
+                <img src={img1} alt="YourTrip"/>
             </div>
       <div className="head">
         <h1>Your Trip</h1>

@@ -2,9 +2,9 @@ import '../Assests/css/Home.css'
 import vid1 from '../Assests/images/alagar.jpg'
 import { Link } from 'react-router-dom';
 import '../Assests/css/Footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faFacebook, faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faPhone, faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
+// import { faInstagram, faFacebook, faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 const Home=()=>
 {
     return(
