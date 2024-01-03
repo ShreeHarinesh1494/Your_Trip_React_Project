@@ -1,5 +1,5 @@
 import '../Assests/css/Home.css'
-import vid1 from '../Assests/images/tamilnadu.mp4'
+import vid1 from '../Assests/images/alagar.jpg'
 import { Link } from 'react-router-dom';
 import '../Assests/css/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
