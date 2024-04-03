@@ -76,6 +76,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 * This is the Login Page
 * Entering the Valid Login credentials the user can login
 * By entering the wrong Login credentials the user can't login it shows Invalid Username or Password
+* UserName = hari && Password = hari123
 ### Login Page
 <img src="https://github.com/ShreeHarinesh1494/React_IRC/blob/main/cc1/project/cc2review%20photos/lgpage.jpg">
 
