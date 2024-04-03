@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-YourtripApplication<yourtrip>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.trip.yourtrip.YourtripApplication",
+            "projectName": "yourtrip",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
